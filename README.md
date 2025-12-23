@@ -44,6 +44,7 @@ dropbear -EFR -p 23 -W 100
 ```
 
 Connect with: `ssh sshfwd@localhost -p 23`
+(you won't be let interactively but you can use and ssh tunneling app)
 
 ## Cleanup
 
