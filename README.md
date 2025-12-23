@@ -43,5 +43,6 @@ Connect with: `ssh sshfwd@localhost -p 23`
 
 ```bash
 umount ./bin/dev/urandom
+cd ..
 rm -rf websocket/
 ```
