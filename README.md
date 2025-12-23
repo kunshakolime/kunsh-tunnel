@@ -1,8 +1,8 @@
-# Ssh tunneling
+# Ssh tunneling 
 
 A minimal setup for running Dropbear SSH server in an isolated Alpine Linux chroot environment for tunneling purposes.
 
-## Setup and Start
+## Setup and Start (you need to run these as root!!!)
 
 ```bash
 # Create workspace
