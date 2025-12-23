@@ -22,7 +22,7 @@ curl -L https://raw.githubusercontent.com/kunshakolime/kunsh-tunnel/main/dropbea
 curl -L https://raw.githubusercontent.com/kunshakolime/kunsh-tunnel/main/dropbear/2019.78/alpine/amd64/dropbearconvert -o ./bin/usr/sbin/dropbearconvert
 curl -L https://raw.githubusercontent.com/kunshakolime/kunsh-tunnel/main/dropbear/2019.78/alpine/amd64/dbclient -o ./bin/usr/sbin/dbclient
 ```
-# Set up urandom and shells
+# Set up urandom and nologin shell
 ```bash
 touch ./bin/dev/urandom
 mount --bind /dev/urandom ./bin/dev/urandom
