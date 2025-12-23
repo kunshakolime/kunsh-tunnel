@@ -12,7 +12,7 @@ mkdir bin
 # Download and extract Alpine minirootfs
 curl -O https://dl-cdn.alpinelinux.org/alpine/v3.23/releases/x86_64/alpine-minirootfs-3.23.2-x86_64.tar.gz
 tar -xzf alpine-minirootfs-3.23.2-x86_64.tar.gz -C ./bin
-rm alpine-minirootfs-3.23.2-x86_64.tar.gz
+rm -f alpine-minirootfs-3.23.2-x86_64.tar.gz
 ```
 # Download Dropbear binaries
 ```bash
