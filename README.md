@@ -21,6 +21,10 @@ curl -L https://raw.githubusercontent.com/kunshakolime/kunsh-tunnel/main/dropbea
 curl -L https://raw.githubusercontent.com/kunshakolime/kunsh-tunnel/main/dropbear/2019.78/alpine/amd64/dropbearkey -o ./bin/usr/sbin/dropbearkey
 curl -L https://raw.githubusercontent.com/kunshakolime/kunsh-tunnel/main/dropbear/2019.78/alpine/amd64/dropbearconvert -o ./bin/usr/sbin/dropbearconvert
 curl -L https://raw.githubusercontent.com/kunshakolime/kunsh-tunnel/main/dropbear/2019.78/alpine/amd64/dbclient -o ./bin/usr/sbin/dbclient
+chmod +x ./bin/usr/sbin/dropbear
+chmod +x ./bin/usr/sbin/dropbearkey
+chmod +x ./bin/usr/sbin/dropbearconvert
+chmod +x ./bin/usr/sbin/dbclient
 ```
 # Set up urandom and nologin shell
 ```bash
