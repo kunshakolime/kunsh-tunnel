@@ -40,7 +40,7 @@ chroot ./bin ./bin/sh -l
 adduser -s /sbin/nologin -H sshfwd
 ```
 ```bash
-dropbear -EFR -p 23 -W 100
+dropbear -EFR -p 23 -W 65536
 ```
 
 Connect with: `ssh sshfwd@localhost -p 23`
